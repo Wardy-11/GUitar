@@ -1,0 +1,3 @@
+[build]
+  publish = "."
+  command = '''printf 'window.CFG={url:"%s",key:"%s"};' "$SUPABASE_URL" "$SUPABASE_ANON_KEY" > config.js'''
